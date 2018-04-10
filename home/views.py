@@ -6,6 +6,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'admin-extra-urls', 'url': 'http://pypi.python.org/pypi/admin-extra-urls/1.7'},
 	{'name':'accordion_presentation', 'url': 'http://pypi.python.org/pypi/accordion_presentation/1.0.1'},
 	{'name':'aa_airtable', 'url': 'http://pypi.python.org/pypi/aa_airtable/0.2'},
     ]
